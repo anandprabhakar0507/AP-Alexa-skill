@@ -1,0 +1,41 @@
+
+
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ap",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetFact",
+                    "slots": [],
+                    "samples": [
+                        "Tell me a fact",
+                        "Tell me something",
+                        "Give me a fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
